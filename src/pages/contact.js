@@ -26,7 +26,7 @@ const Contact = () => {
          <div>
             <h4 id="contact-header">Thank you for stopping by! If you'd like to contact me regarding a project, or have any questions at all, please feel free to send me a message below.</h4>
          </div>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} method="POST">
                <ValidationError field="email" prefix="Email" errors={state.errors} />
                <label className="contact-label">First Name</label>
                   {/* <br/> */}

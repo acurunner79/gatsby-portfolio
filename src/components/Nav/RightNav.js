@@ -18,7 +18,12 @@ const RightNav = (props) => {
           <li className="links" onClick={props.handleClick}>
             Projects
           </li>
-          </Link> 
+          </Link>
+          <Link to="/blog">
+          <li className="links" onClick={props.handleClick}>
+            Blog
+          </li>
+          </Link>  
           <Link to="/contact">
             <li className="links" onClick={props.handleClick}>
               Contact
