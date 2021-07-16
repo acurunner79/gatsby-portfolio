@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Rajdhani:wght@300&display=swap');
+
+#contact-card{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-header{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px !important;
+}
+
+label.contact-label{
+    display:flex;
+    margin-left: 45px;
+    padding: 0 auto;
+}
+
+.inputs{
+    min-width: 80%;
+    height: 40px;
+    margin: 10px 0 10px 0;
+    border-radius: 4px;
+}
+
+#message{
+    width: 80%;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.message-submit {
+    text-align: center;
+    font-family: 'Rajdhani';
+    font-size: 60px;
+    background: -webkit-linear-gradient(#fa914d, #32bacc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.back-home{
+    font-weight: 600 !important;
+    text-decoration: none;
+    border: 2px solid #32bacc;
+    margin: 5px;
+    background: transparent !important;
+    width: 144px;
+}
+
+@media (min-width: 768px){
+    #contact-header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
+    label.contact-label{
+        margin-left: 80px;
+    }
+}
+
+@media (min-width: 1024px){
+    #contact-card{
+        max-width: 800vw;
+        align-items: center;
+    }
+
+    #contact-header{
+        padding-top: 80px;
+        width: 800px;
+    }
+
+    label.contact-label{
+        margin-left: 45px;
+        position: relative;
+    }
+
+    form{
+        width: 40%;
+    }
+}
+
+@media(min-width: 1440px){
+    label.contact-label{
+        margin-left: 55px;
+
+    }
+}
+
+@media(min-width: 2500px){
+    label.contact-label{
+        margin-left: 105px;
+    }
+}

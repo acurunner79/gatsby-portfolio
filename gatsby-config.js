@@ -1,3 +1,25 @@
+require("dotenv").config({
+  path: `.env`,
+});
+
+module.exports = {
+  siteMetadata: {
+    title: `I like Google fonts`
+  },
+  plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `rajdhani`,
+          `Roboto\:300` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    }
+  ]
+}
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -35,3 +57,4 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ],
 }
+

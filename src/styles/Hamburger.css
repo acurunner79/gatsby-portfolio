@@ -1,0 +1,53 @@
+div.hamburger {
+    padding-top: 40px;
+    position: fixed;
+    /* bottom: 35px; */
+    right: 45px;
+    width: 2rem;
+    /* height: 3rem; */
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    z-index: 100;
+}
+ #one {
+    
+    width: 2.5rem;
+    height: 0.22rem;
+    /* background-color: #32bacce5;  */
+    /* border-radius: 2px; */
+    transform-origin: 1px;
+    transition: all 0.3s ease-in-out; 
+    padding: 2px 0 2px 0;
+    margin: 1px 0 2px 0;
+    background: -webkit-linear-gradient(#fa914d, #32bacc);
+}
+ #two {
+   
+    width: 2.5rem;
+    height: 0.22rem;
+    /* background-color: #32bacce5;  */
+    /* border-radius: 2px; */
+    transform-origin: 1px;
+    transition: all 0.3s ease-in-out; 
+    padding: 2px 0 2px 0;
+    margin: 2px 0 2px 0;
+    background: -webkit-linear-gradient(#fa914d, #32bacc);
+}
+ #three { 
+    width: 2.5rem;
+    height: 0.22rem;
+    /* background-color: #32bacce5;  */
+    /* border-radius: 2px; */
+    transform-origin: 1px;
+    transition: all 0.3s ease-in-out;
+    padding: 2px 0 2px 0;
+    margin: 2px 0 2px 0;
+    background: -webkit-linear-gradient(#fa914d, #32bacc);
+}
+
+@media (min-width: 1024px) {
+    div.hamburger {
+            display: none;
+    }
+}
