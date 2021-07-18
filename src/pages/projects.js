@@ -1,12 +1,13 @@
 import React from 'react'
 import { Layout } from 'components' 
 import Card from 'react-bootstrap/Card'
-import {Accordion} from 'react-bootstrap'
+import Accordion  from 'react-bootstrap/Accordion'
 import projects from "../json/projects.json"
 import '../styles/projects.css'
 
 
 const Projects = () => {
+
     return (
         <Layout>
            <div>
@@ -14,11 +15,11 @@ const Projects = () => {
             <div className="card-container">
                 {projects.map(project => {
                     return ( 
-                        <div key={projects.id}>
+                        <div key={project.id}>
                         <h2>{project.name}</h2>
                         <Card style={{ width: '18rem' }}>
                             <Card.Img className="project-image" src={project.image} />
-                                <Accordion defaultActiveKey="0">
+                                <Accordion >
                                     <Accordion.Toggle as={Card.Header} eventKey="0">
                                         <div className="button-container">
                                             <button className="card-button" variant="secondary" ><h4><a target="_blank" rel="noreferrer" href={project.live}>Go To Site</a></h4></button>

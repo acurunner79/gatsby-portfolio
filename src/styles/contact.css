@@ -50,8 +50,8 @@ label.contact-label{
 
 @media (min-width: 768px){
     #contact-header{
-    padding-top: 50px;
-    padding-bottom: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     label.contact-label{
@@ -82,8 +82,7 @@ label.contact-label{
 
 @media(min-width: 1440px){
     label.contact-label{
-        margin-left: 55px;
-
+        margin-left: 75px;
     }
 }
 
