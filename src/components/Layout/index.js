@@ -2,6 +2,7 @@
 import React from "react"
 import { createGlobalStyle } from "styled-components";
 import Nav from '../Nav/index'
+import Footer from '../Footer/index'
 // import Skills from '../Skills/index'
 
 
@@ -36,7 +37,7 @@ export const Layout = ({ children }) => {
           <GlobalStyle />
           <Nav />
           <section>{children}</section>
-          {/* <Skills /> */}
+          <Footer />
       </div>
   );
 };

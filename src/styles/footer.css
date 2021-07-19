@@ -1,0 +1,14 @@
+.footer-main{
+    Display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    /* align-items: center; */
+}
+
+label{
+    /* margin: 10px 0 0 0; */
+}
+
+#footer-icon{
+    width: 40px;
+}
