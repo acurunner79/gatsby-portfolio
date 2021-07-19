@@ -4,7 +4,10 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `I like Google fonts`
+    title: `Jorge Soto: Fullstack Web Developer`,
+    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    author: `@gatsbyjs`,
+    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
     {
@@ -17,17 +20,6 @@ module.exports = {
         display: 'swap'
       },
     },
-  ]
-}
-
-module.exports = {
-  siteMetadata: {
-    title: `Jorge Soto: Fullstack Web Developer`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
-  },
-  plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
