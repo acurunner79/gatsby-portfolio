@@ -16,9 +16,9 @@ exports.createPages = async ({ actions, graphql }) => {
     } = await graphql(`
         {
             contentfulBlog {
+                pageTitle
                 postPerPage
                 slug
-                pageTitle
             }
             allContentfulBlogPost(
                 sort: { fields: publishedDate, order: DESC }
