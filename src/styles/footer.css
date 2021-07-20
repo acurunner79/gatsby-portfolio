@@ -1,9 +1,10 @@
 .footer-main{
     Display: flex;
     justify-content: center;
-    padding-top: 80px;
-    /* align-items: center; */
+    padding-top: 180px;
     padding-bottom: 10px;
+    position: relative;
+    bottom: 0;
 }
 
 label#footer-text{
@@ -16,4 +17,29 @@ label#footer-text{
 #footer-icon{
     width: 40px;
     padding-right: 10px;
+}
+
+/* @media(min-width: 768px){
+    .footer-main{
+        left: 0;
+    }
+}
+
+@media(min-width: 1024px){
+    .footer-main{
+        left: 0;
+    }
+}
+
+@media(min-width: 1440px){
+    .footer-main{
+        left: 40%;
+    }
+} */
+
+@media(min-width: 2550px){
+
+    label#footer-text{
+        font-size: 15px;
+    }
 }
