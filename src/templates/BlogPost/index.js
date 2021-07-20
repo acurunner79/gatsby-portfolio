@@ -10,7 +10,7 @@ const BlogPost = (props) => {
             <Seo 
                 title={props.data.contentfulBlogPost.title} 
                 description={props.data.contentfulBlogPost.description}
-            />
+                />
             <RichText raw={props.data.contentfulBlogPost.pageContent.raw}/>
         </Layout>
     )

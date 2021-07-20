@@ -18,6 +18,7 @@ exports.createPages = async ({ actions, graphql }) => {
             contentfulBlog {
                 postPerPage
                 slug
+                pageTitle
             }
             allContentfulBlogPost(
                 sort: { fields: publishedDate, order: DESC }
