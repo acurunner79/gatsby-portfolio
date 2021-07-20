@@ -4,6 +4,7 @@ import styled from "styled-components";
 export const Content = styled.div`
     max-width: 1000px;
     margin: 0 auto;
+    padding-top: 10px;
 `
 export const Post = styled.div`
     margin: 20px 0;

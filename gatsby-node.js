@@ -16,7 +16,6 @@ exports.createPages = async ({ actions, graphql }) => {
     } = await graphql(`
         {
             contentfulBlog {
-                pageTitle
                 postPerPage
                 slug
             }
