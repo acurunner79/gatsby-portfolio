@@ -18,6 +18,8 @@ body {
   -webkit-text-stroke-color: black; */
   /* font-family: 'Unica One'; */
   font-family: 'Rajdhani';
+  height: 100%;
+  overflow: auto;
 }
 
 h1 {

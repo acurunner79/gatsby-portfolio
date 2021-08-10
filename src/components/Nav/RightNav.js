@@ -19,11 +19,11 @@ const RightNav = (props) => {
             Projects
           </li>
           </Link>
-          <Link to="/blog">
+          {/* <Link to="/blog">
           <li className="links" onClick={props.handleClick}>
             Blog
           </li>
-          </Link>  
+          </Link>   */}
           <Link to="/contact">
             <li className="links" onClick={props.handleClick}>
               Contact

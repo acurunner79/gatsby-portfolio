@@ -20,10 +20,15 @@ export const Pagination = styled.div`
         padding: 20px;
         background-color: black;
         border-radius: 4px;
-        &:hover{
-            
-            background-color: #999
-            
-        }
+        &:hover,
+	    &.current {
+		background-color: green;
+		color: white;
+	}
+
+	&.prev:hover,
+	&.next:hover {
+		background-color: transparent;
+        color: green;
     }
-`
+    }`

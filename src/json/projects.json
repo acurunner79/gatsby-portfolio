@@ -26,9 +26,9 @@
     {
         "id": 4,
         "name": "My Portfolio",
-        "description": "This is my portfolio created using React as my front end and using rails as a back end to hold all my projects. I implemented a few of the React libraries such as react-bootstrap and react-icons. I also applied some Styled Components along with some traditional CSS which also includes some animations.",
+        "description": "This is my portfolio created using Gtasby as my front end and using GraphQL. I've also integraded Contentful to create my own blogs(blogs coming soon!). I implemented a few of the React libraries such as react-bootstrap and react-icons. I also applied some Styled Components along with some traditional CSS which also includes some animations.",
         "image": "https://res.cloudinary.com/acurunner79/image/upload/v1623006406/Screenshot_from_2021-06-06_14-06-06_ralye4.png",
-        "github": "https://github.com/acurunner79/My-Portfolio-Frontend",
+        "github": "https://github.com/acurunner79/gatsby-portfolio",
         "live": "https://www.jorgesotocoder.com/"
     }
 ]

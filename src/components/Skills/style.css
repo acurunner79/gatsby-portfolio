@@ -20,6 +20,7 @@ p#skills-description{
   border-right: 2px solid #32bacc;
   border-left: 2px solid #32bacc;
   border-bottom: 2px solid #32bacc;  
+  overflow: hidden;
 }
 
 
@@ -27,11 +28,13 @@ p#skills-description{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    overflow: hidden;
 }
 
 .skills-container{
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 div.front-end, div.back-end, div.tech-stuff{
@@ -42,6 +45,7 @@ div.front-end, div.back-end, div.tech-stuff{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    overflow: hidden;
 }
 
 section.icons{
@@ -51,6 +55,7 @@ section.icons{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 div.front-end:hover{
@@ -60,6 +65,7 @@ div.front-end:hover{
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
+    overflow: hidden;
 }
 
 div.back-end:hover{
@@ -69,6 +75,7 @@ div.back-end:hover{
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
+    overflow: hidden;
 }
 
 div.tech-stuff:hover{
@@ -98,11 +105,13 @@ div.tech-stuff:hover{
         flex-wrap: wrap;
         justify-content: space-evenly;
         height: 100%;
+        overflow: hidden;
     }
 
     div.back-end{
         border-left: 2px solid #32bacc;
         border-right: 2px solid #32bacc;
+        overflow: hidden;
     }
     
     section.icons{

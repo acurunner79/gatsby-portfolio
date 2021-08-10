@@ -10,6 +10,7 @@ p#statement {
     border-right: 2px solid #32bacc;
     border-left: 2px solid #32bacc;
     border-bottom: 2px solid #32bacc;  
+    overflow: hidden;
 }
 .main-container {
     display: block;
