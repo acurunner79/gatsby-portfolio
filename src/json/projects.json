@@ -40,7 +40,7 @@
         "live": "https://www.pathtradingpartners.com"
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "DJ Soltrix",
         "description": "Djsoltrix.com is a site dedicated to this Latin remixer & producer and his work. It displays all of his work that he has done and all of his upcoming gigs. This React Gatsby site uses a combination of plugins, API's, and a headless CMS, Contentful, that allows him to update his newest singles and a blog to keep his fanbase up to date on whats new with DJ Soltrix. Site is hosted via Netlify and utilizes the trigger builds using Zapier to always have an updated site.",
         "image": "https://res.cloudinary.com/acurunner79/image/upload/v1635201938/Screenshot_from_2021-10-25_17-45-10_ppt4kq.png",
