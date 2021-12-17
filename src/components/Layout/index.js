@@ -32,15 +32,16 @@ h1 {
 `
 
 
-export const Layout = ({ children }) => {
+const Layout = ({ children }) => {
 
   return (
       <div>
           <GlobalStyle />
           <Nav />
-          <section>{children}</section>
+            <section>{children}</section>
           <Footer />
       </div>
   );
 };
 
+export default Layout

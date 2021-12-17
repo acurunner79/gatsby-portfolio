@@ -9,7 +9,7 @@ const RightNav = (props) => {
   
     return (     
     <div className="links-container">
-        <Link to="/main">
+        <Link to="/">
           <li className="links" onClick={props.handleClick}>
             Home
           </li>

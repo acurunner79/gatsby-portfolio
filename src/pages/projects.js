@@ -1,5 +1,5 @@
 import React from 'react'
-import { Layout } from 'components' 
+import Layout from '../components/Layout/index'
 import Card from 'react-bootstrap/Card'
 import Accordion  from 'react-bootstrap/Accordion'
 import projects from "../json/projects.json"

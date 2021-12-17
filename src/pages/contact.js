@@ -1,5 +1,5 @@
 import React from 'react' 
-import { Layout } from 'components'
+import Layout from '../components/Layout/index'
 import { ValidationError, useForm } from '@formspree/react'
 import '../styles/contact.css'
 import { Link } from 'gatsby'

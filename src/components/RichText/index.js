@@ -3,7 +3,7 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import { Wrapper } from './style'
 
 
-export const RichText = ({raw, references = []}) => {
+const RichText = ({raw, references = []}) => {
     const referencesMap = {}
     references.forEach((reference) => {
         referencesMap[reference.contentful_id] = reference
@@ -15,3 +15,5 @@ export const RichText = ({raw, references = []}) => {
         </Wrapper>
     )
 }
+
+export default RichText
