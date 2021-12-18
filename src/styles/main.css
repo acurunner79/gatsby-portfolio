@@ -12,14 +12,26 @@ p#statement {
     border-bottom: 2px solid #32bacc;  
     overflow: hidden;
 }
+
 .main-container {
     display: block;
     padding-top: 80px;
     text-align: center;
-  }
+}
 
-  
-  #home-icons {
+#my-name{
+    margin-bottom: -50px;
+}
+
+#my-title{
+   font-size: 35px; 
+}
+ 
+.click-icons{
+    margin-bottom: 60px;
+}
+
+#home-icons {
     display: flex;
     justify-content: center;
     /* border: 2px solid #32bacc; */
@@ -29,23 +41,31 @@ p#statement {
     max-width: 200px;
     padding: 5px;
     text-decoration: none #32bacc;
-  }
+}
+  /* a.icon-hover{
+      transition: transform .4s;
+  } */
 
-  a.icon-hover:hover{
-    border: 2px solid #a3a3a3;
-    -moz-transition: all 0s ease-in;
-    -o-transition: all 0s ease-in;
-    -webkit-transition: all 0s ease-in;
-    transition: all 0s ease-in;
-  }
-  
-  .icon {
-    margin: 25px;
-  }
+  /* a.icon-hover:hover{ */
+      /* border: 2px solid #a3a3a3; */
+      /* -moz-transition: all 0s ease-in; */
+      /* -o-transition: all 0s ease-in; */
+      /* -webkit-transition: all 0s ease-in; */
+    /* } */
+    
+.icon {
+    margin: 0 15px;
+    transition: transform .4s;
+}
+    
+.icon:hover{
+    transform: scale(1.3);
+    color: white !important;
+}
 
   /* Skills section */
 
-  div.skills-container p{
+div.skills-container p{
     color:black;
     font-weight: 600;
 }
@@ -80,6 +100,12 @@ p#skills-description{
     display: flex;
     flex-direction: column;
 }
+
+/* @media (prefers-reduced-motion: no-preference) {
+    .skills-scroll-animation{
+        animation: wipe-enter 1s 1;
+    }
+} */
 
 div.front-end, div.back-end, div.tech-stuff{
     display: flex;

@@ -15,33 +15,44 @@ import { FaWindows } from '@react-icons/all-files/fa/FaWindows'
 import { FaReact } from '@react-icons/all-files/fa/FaReact'
 import { SiGraphql } from '@react-icons/all-files/si/SiGraphql'
 import { GrGatsbyjs } from '@react-icons/all-files/gr/GrGatsbyjs'
+import { CgFileDocument } from '@react-icons/all-files/cg/CgFileDocument'
 import { SiRuby } from '@react-icons/all-files/si/SiRuby'
 import { SiPostman } from '@react-icons/all-files/si/SiPostman'
 import { SiRails } from '@react-icons/all-files/si/SiRails'
 import { SiPostgresql } from '@react-icons/all-files/si/SiPostgresql'
 import { SiMongodb } from '@react-icons/all-files/si/SiMongodb'
 import { SiRubygems } from '@react-icons/all-files/si/SiRubygems'
+import { AiOutlineLinkedin } from '@react-icons/all-files/ai/AiOutlineLinkedin'
 import '../styles/main.css'
 
 
 const Index = () => {
+    
   return (
     <Layout>
       <Seo title="Home" />
         <div className="main-container">
-          <h1>Jorge Soto</h1>
+          <h1 id="my-name">Jorge Soto</h1>
           <img src="https://res.cloudinary.com/acurunner79/image/upload/v1609628595/a41da708-81e9-4ec3-9364-9d8748f7063d-abefd9c3-2fd7-4408-9b0a-a57280c0ca82-v1_iaim8e.png" alt="Jorge Soto"></img>
-          <h1>Full Stack Web Developer</h1>
-          <div>
-            <p id="statement">Full-stack web developer and professional dancer who is always looking for ways to improve in all aspects. I use React to develop responsive applications with cleaner code. Eager to create unique web applications that challenge me to deliver an even greater product</p>
-          </div>
           <div className="click-icons">
+          <h2 id="my-title" >Software Engineer</h2>
             <div id="home-icons">
-              <a className="icon-hover" target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1cHCoiVcES6uHkpnJ37Y4np6dteilCvuEUfaUDPhMQdY/edit?usp=sharing"><h2>Resume</h2><img className="icon" src="https://res.cloudinary.com/acurunner79/image/upload/c_scale,w_70/v1617133179/resume-clipart-icon-web-icons-png-intended-for-my-12-300x300_mgu8pb.png" alt="resume-icon"></img>   
+              <a className="icon-hover" target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1cHCoiVcES6uHkpnJ37Y4np6dteilCvuEUfaUDPhMQdY/edit?usp=sharing">
+                  {/* <h2>Resume</h2> */}
+                  <CgFileDocument className="icon" size="40" color="#32bacc"/>   
               </a>
-              <a className="icon-hover" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jorgelsotojr/"><h2>Linkedin</h2><img className="icon" src="https://res.cloudinary.com/acurunner79/image/upload/c_scale,w_70/v1617132616/social-linkedin-button-blue-icon--social-bookmark-iconset--yootheme-5_aoha9j.png" alt="linkedin-icon"></img>
+              <a className="icon-hover" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jorgelsotojr/">
+                  {/* <h2>Linkedin</h2> */}
+                  <AiOutlineLinkedin className="icon" size="40" color="#32bacc"/>
+              </a>
+              <a className="icon-hover" target="_blank" rel="noreferrer" href="https://github.com/acurunner79">
+                  {/* <h2>GitHub</h2> */}
+                  <FaGithub className="icon" size="40" color="#32bacc"/>
               </a>
             </div>
+          </div>
+          <div>
+            <p id="statement">Software Engineer and professional dancer who is always looking for ways to improve in all aspects. I use React to develop responsive applications with cleaner code. Eager to create unique web applications that challenge me to deliver an even greater product</p>
           </div>
         </div>
         <div>
