@@ -18,6 +18,7 @@ const Seo = ({ description, lang, meta = {}, title }) => {
     );
 
     const metaDescription = description || site.siteMetadata.description;
+    const metaImage = image || "https://res.cloudinary.com/acurunner79/image/upload/v1623006406/Screenshot_from_2021-06-06_14-06-06_ralye4.png"
     const defaultTitle = site.siteMetadata?.title;
 
     return (
@@ -35,6 +36,10 @@ const Seo = ({ description, lang, meta = {}, title }) => {
                 {
                     property: `og:title`,
                     content: title,
+                },
+                {
+                    property: `og:image`,
+                    content: metaImage,
                 },
                 {
                     property: `og:description`,
