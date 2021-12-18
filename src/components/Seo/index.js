@@ -18,7 +18,7 @@ const Seo = ({ description, lang, meta = {}, title }) => {
     );
 
     const metaDescription = description || site.siteMetadata.description;
-    const metaImage = "https://res.cloudinary.com/acurunner79/image/upload/v1623006406/Screenshot_from_2021-06-06_14-06-06_ralye4.png"
+    const metaImage = "https://res.cloudinary.com/acurunner79/image/upload/v1616873759/website_logo_transparent_background_2_ahhr1g.png"
     const defaultTitle = site.siteMetadata?.title;
 
     return (
