@@ -16,22 +16,49 @@ exports.createPages = async ({ actions, graphql }) => {
     } = await graphql(`
         {
             contentfulBlog {
-                postPerPage
-                slug
+            postPerPage
+            slug
             }
-            allContentfulBlogPost(
-                sort: { fields: publishedDate, order: DESC }
-            ) {
-                edges {
-                    node {
-                        slug
-                        publishedDate(formatString: "DD MMM YYYY")
+                allContentfulBlogPost(sort: {fields: publishedDate, order: DESC}) {
+                    edges {
+                        node {
+                            slug
+                            publishedDate(formatString: "MMM DD YYYY")
+                            description
+                      
                         pageContent {
                             raw
-                        }
+                            references {
+                            ... on ContentfulAsset{
+                                __typename
+                                contentful_id
+                                fixed (width: 1600) {
+                                    width
+                                    height
+                                    src
+                                    srcSet
+                                    }
+                                }
+                            }
+                        }   
                         description
                         title
                         contentful_id
+                        pageContent {
+                            raw
+                            references {
+                                ... on ContentfulAsset{
+                                    __typename
+                                    contentful_id
+                                    fixed (width: 1600) {
+                                        width
+                                        height
+                                        src
+                                        srcSet
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }

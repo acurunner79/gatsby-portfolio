@@ -6,7 +6,7 @@ import { Content, Post, Pagination } from './style'
 
 
 const PaginatedBlogPage = ({pageContext}) => {
-    console.log(pageContext.posts)
+    // console.log(pageContext.posts)
     return (
         <Layout>
                 <h1>Welcome to Jorge's Blog</h1>
